@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    width: 1400px;
+    margin-top: 20px;
+}
+.mother{
+    width: 1400px;
+}
+.menu_1{
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+}
+.numb{
+    padding-right: 20px;
+    margin-left: -20px;
+    border-right: 1px solid #E2E2E2;
+    align-items: center;
+    display: flex;
+}
+.numb i{
+    margin-top: -20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.ur{
+    font-family: "Suisse Int'l Trial";
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    border-left: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+}
+.ur p:hover {
+    margin-left: 32px;
+    width: 30px;
+    background-color: turquoise;
+    color: white;
+}
+.ue{
+    padding-right: 20px;
+    margin-left: -20px;
+    border-right: 1px solid #E2E2E2;
+}
+.menu_icon{
+    padding-right: 20px;
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #E2E2E2;
+}
+.menu_icon i{
+    margin-left: 10px;
+    color: #808080;
+}
+.maonline{
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    background: #EFF3F6;
+    align-items: center;
+}
+.online_icon{
+    margin-left: 12px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+}
+.online_icon i{
+    color: white;
+    font-size: 30px;
+}
+.tonline{
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    background: #EFF3F6;
+    align-items: center;
+}
+.tonline_icon{
+    margin-left: 28px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+}
+.tonline_icon i{
+    font-size: 25px;
+    color: white;
+}
+.glob_nav_header_1{
+    width: 1400px;
+    height: 50px;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.glob_nav_header_1 li:hover{
+    border-bottom: 3px solid red;
+    box-sizing: border-box;
+}
+.glob_nav_header_1 .nav-link{
+    margin-left: 40px;
+}
+.nav-link{
+    color: black;
+}
+i{
+    color: black;
+    font-size: 20px;
+}
+.content{
+    width: 100%;
+    display: flex;
+}
+.maintext{
+    color: gray;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.question{
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.question img{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.vector{
+    position: absolute;
+    left: 5.47%;
+    right: 73.08%;
+    top: 39.79%;
+    bottom: 6.08%;
+}
+.elipse{
+    height: 200px;
+    position: absolute;
+    left: -3.88%;
+    right: 92.69%;
+    top: 9.1%;
+    bottom: 64.31%;
+}
+.plane{
+    position: absolute;
+    left: 10.0%;
+    right: 81.57%;
+    top: 65.97%;
+    
+}
+.textarea{
+    margin-top: 100px;
+}
+.page1{
+    font-size: 20px;
+    width: 600px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    border-bottom: 1px solid #000;
+}
+.p2{
+    display: flex;
+    justify-content: space-between;
+}
+.con1{
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    color: grey;
+    font-size: 10px;
+}
+.text1{
+    display: flex;
+}
+.num1 p{
+    background-color: red;
+    color: white;
+    padding: 5px 5px;
+}
+
+
+.footer_top{
+    padding-bottom: 40px;
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(29, 29, 29, 0.2);;
+    width: 1100px;
+    margin: 40px auto 0 auto;
+}
+.footer_top img{
+    width: 156px;
+    height: 86px;
+}
+.footer_top_munu_1{
+    font-family: "Suisse Int'l Trial";
+    font-size: 15px;
+}
+.footer_top_munu_1 p{
+    margin: 2px;
+}
+.footer_top_munu_2{
+    font-family: "Suisse Int'l Trial";
+    font-size: 15px;
+}
+.footer_top_munu_2 p{
+    margin: 2px;
+}
+.footer_top_p p {
+    font-size: 12px;
+    color: #3E3E3E;
+    opacity: 0.5;
+}
+.footer_top_p h4{
+    font-size: 15px;
+}
+.footer_top_number h4{
+    font-size: 12px;
+    color: #3E3E3E;
+    opacity: 0.5; 
+}
+.footer_top_number{
+    font-size: 15px;
+}
+.footer_bottom{
+    display: flex;
+    padding: 20px 150px 0 150px;
+}
+.footer_bottom_i{
+    width: 100%;
+    text-align: end;
+}
+.footer_bottom_i i {
+    color: #3E3E3E;
+}
+.footer_bottom_p{
+    position: absolute;
+    color: rgba(62, 62, 62, 0.5);
+    font-size: 15px;
+    width: 600px;
+}
+.footer{
+    position: relative;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #F8F8F8;
+}
